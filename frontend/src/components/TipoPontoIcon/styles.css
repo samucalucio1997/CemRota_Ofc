@@ -1,0 +1,31 @@
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: .5rem;
+    color: #003C46;
+    cursor: pointer;
+}
+
+.icon-container .icon {
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 300%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #003C46;
+    font-size: 1.5rem;
+    transition: all .2s ease-in-out;
+}
+
+.icon-container .description {
+    font-size: 12px;
+}
+
+.icon-container.selected .icon {
+    color: #FF5733;
+    background-color: #003C46;
+    transform: scale(1.1);
+}

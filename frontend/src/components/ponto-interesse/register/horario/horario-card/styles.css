@@ -1,0 +1,18 @@
+.horario-controller{
+    width: 6.625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horario-controller .button{
+    width: 1.125rem;
+    height: 1.125rem;
+    background-color: #FF4B23;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}

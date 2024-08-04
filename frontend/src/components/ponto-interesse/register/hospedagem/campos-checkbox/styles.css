@@ -1,0 +1,22 @@
+.container-check{
+    width: 90%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #FF4B23;
+    color: #003C46;
+    margin: 1rem auto;
+}
+.checkbox-label::before {
+    content: "";
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 300%;
+    border: 2px solid #003C46;
+    margin-right: 0.5rem;
+}
+
+.checkbox-label.checked::before {
+    background-color: #003C46;
+}

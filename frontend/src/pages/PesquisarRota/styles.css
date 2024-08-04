@@ -1,0 +1,128 @@
+.container-inicio {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.cabecalho-pesquisa {
+    position: absolute;
+    width: 70%;
+    height: 4rem;
+    background-color: #f4f4f4;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    transition: all .5s ease-out;
+    -webkit-box-shadow: 3px 7px 22px -4px rgba(255, 75, 35, 0.51);
+    -moz-box-shadow: 3px 7px 22px -4px rgba(255, 75, 35, 0.51);
+    box-shadow: 3px 7px 22px -4px rgba(255, 75, 35, 0.51);
+}
+
+.cabecalho-pesquisa .form-group {
+    border: 1px solid #FF4B23;
+    border-radius: 2rem;
+    width: 50%;
+    height: 3rem;
+}
+
+.cabecalho-pesquisa .form-group input {
+    padding: 1rem;
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 100%;
+}
+
+.cabecalho-pesquisa .form-group .input-origem {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.cabecalho-pesquisa .form-group .input-destino {
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-left: 1px solid #FF4B23;
+}
+
+.s-button {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #FF4B23;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.cabecalho-pesquisa .controle {
+    position: absolute;
+    top: 6rem;
+    left: 50%;
+    width: 3rem;
+    height: 3rem;
+    background-color: #003C46;
+    color: #FF4B23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-box-shadow: 3px 7px 22px -4px rgba(255, 75, 35, 0.51);
+    -moz-box-shadow: 3px 7px 22px -4px rgba(255, 75, 35, 0.51);
+    box-shadow: 3px 7px 22px -4px rgba(255, 75, 35, 0.51);
+}
+
+.desativado {
+    top: -5rem;
+}
+
+.detail-ponto-interesse-modal {
+    position: absolute;
+    width: 20rem;
+    height: 40rem;
+    background-color: #f4f4f4;
+    top: 4rem;
+    left: 5%;
+    z-index: 150;
+    border-radius: 1rem;
+    transition: all 1s ease-in-out;
+}
+
+.close-modal{
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #003C46;
+    color: #FF4B23;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+}
+
+.modal-on{
+    display: none;
+}
+
+.sombra {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: 10%;
+    position: absolute;
+    top: 0;
+    z-index: 120;
+}

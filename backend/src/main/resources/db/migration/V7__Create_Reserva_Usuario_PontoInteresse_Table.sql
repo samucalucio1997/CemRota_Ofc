@@ -1,0 +1,5 @@
+-- CREATE TABLE Reserva_Usuario_PontoInteresse (
+--     id UUID PRIMARY KEY NOT NULL,
+--     ponto_interesse_id UUID NOT NULL,
+--     usuario_id UUID NOT NULL
+-- )

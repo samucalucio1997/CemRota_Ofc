@@ -1,0 +1,20 @@
+.container-detail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-detail .imagem-ponto {
+    width: 100%;
+    height: 250px; /* Ajuste a altura conforme necessário */
+    overflow: hidden;
+}
+
+.container-detail .imagem-ponto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+

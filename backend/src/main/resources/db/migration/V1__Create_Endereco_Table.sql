@@ -1,0 +1,9 @@
+-- CREATE TABLE Endereco (
+--     id UUID PRIMARY KEY NOT NULL,
+--     cidade VARCHAR(255) NOT NULL,
+--     bairro VARCHAR(255) NOT NULL,
+--     estado VARCHAR(255) NOT NULL,
+--     rua VARCHAR(255) NOT NULL,
+--     CEP VARCHAR(255) NOT NULL,
+--     numero VARCHAR(10) NOT NULL
+-- );

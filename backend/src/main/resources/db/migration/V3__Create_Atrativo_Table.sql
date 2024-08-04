@@ -1,0 +1,5 @@
+-- CREATE TABLE Atrativo (
+--     id UUID PRIMARY KEY NOT NULL,
+--     icone VARCHAR(255) NOT NULL,
+--     descricao VARCHAR(255) NOT NULL
+-- );

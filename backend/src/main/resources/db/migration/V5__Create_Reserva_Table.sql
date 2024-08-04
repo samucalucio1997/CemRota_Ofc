@@ -1,0 +1,11 @@
+-- CREATE TABLE Reserva (
+--     id UUID NOT NULL,
+--     usuario_id UUID NOT NULL,
+--     ponto_interesse_id UUID NOT NULL,
+--     valor_total REAL NOT NULL,
+--     data_hora_entrada TIMESTAMP,
+--     data_hora_saida TIMESTAMP,
+--     PRIMARY KEY (id, ponto_interesse_id),
+--     FOREIGN KEY (usuario_id) REFERENCES Usuario (id),
+--     FOREIGN KEY (ponto_interesse_id) REFERENCES PontoInteresse (id)
+-- );

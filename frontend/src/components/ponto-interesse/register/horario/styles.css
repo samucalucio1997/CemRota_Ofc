@@ -1,0 +1,11 @@
+.horarios{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #003C4610;
+    border-radius: 1rem;
+    width: 90%;
+    height: 3.375rem;
+    margin: 1.5rem auto;
+    color: #003C46;
+}

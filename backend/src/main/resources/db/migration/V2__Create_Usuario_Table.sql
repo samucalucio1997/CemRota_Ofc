@@ -1,0 +1,11 @@
+-- CREATE TABLE Usuario (
+--     id UUID PRIMARY KEY NOT NULL,
+--     username VARCHAR(255) NOT NULL,
+--     password VARCHAR(255) NOT NULL,
+--     email VARCHAR(255) NOT NULL,
+--     name VARCHAR(255),
+--     lastname VARCHAR(255),
+--     img_perfil VARCHAR(255),
+--     endereco_id UUID,
+--     FOREIGN KEY (endereco_id) REFERENCES Endereco (id)
+-- );
